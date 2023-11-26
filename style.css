@@ -1,0 +1,20 @@
+body {
+    font-family: cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-color {
+    background-color: lightblue !important;
+}
+.banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(logo\ banner\ kelompok\ 10.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hovered-card{
+    transition: .3s;
+}
+
+.hovered-card:hover{
+    transform: scale(1.1);
+}
